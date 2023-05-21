@@ -1,5 +1,6 @@
-import Hero from "./components/Hero";
+import Hero from "./sections/Hero";
 import Navbar from "./components/Navbar";
+import Win from "./Win";
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <div className="max-w-7xl px-3 mx-auto">
         <Navbar />
         <Hero />
+        <Win/>
       </div>
     </div>
   );

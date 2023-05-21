@@ -3,7 +3,14 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+ 
 .font-orbitron{
   font-family: 'Orbitron', sans-serif;
+}
+.font-pop{
+  font-family: 'Poppins', sans-serif;
+}
+.oct{
+clip-path: polygon(42% 51%, 59% 51%, 67% 36%, 100% 36%, 100% 100%, 0 100%, 0 36%, 35% 36%);
 }
