@@ -1,6 +1,6 @@
 import Hero from "./sections/Hero";
 import Navbar from "./components/Navbar";
-import Win from "./Win";
+import Win from "./sections/Win";
 import Footer from "./components/Footer";
 import Offering from "./sections/Offering";
 import HowDBET from "./sections/HowDBET";

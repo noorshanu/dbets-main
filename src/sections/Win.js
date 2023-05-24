@@ -19,7 +19,7 @@ const Win = () => {
           />
           <img
             src="/assets/images/buy-btn-sm.svg"
-            className="w-[48vw] h-auto flex sm:hidden self-center mb-[15%]"
+            className="w-[48vw] h-auto flex sm:hidden self-center mb-[6%] xs:mb-[12%]"
           />
           <h1 className="font-orbitron text-white font-medium md:text-4xl sm:text-3xl lg:text-5xl text-2xl text-center">
             Win big on Debetz
