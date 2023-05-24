@@ -12,7 +12,7 @@ const OfferingCard = () => {
         className="invisible  group-hover:flex hidden h-full w-max"
       />
       <div className="absolute inset-0 rounded-3xl  bg-opacity-50  bg-cover px-10 py-[1rem] flex flex-col justify-center space-y-8">
-        <img className="w-20 h-auto" src="/assets/images/boximg.svg"  />
+        <img className="w-20 h-auto" src="/assets/images/boxImg.svg"  />
         <h1 className="text-2xl font-medium font-orbitron text-white">
           Sportsbook
         </h1>
