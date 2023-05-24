@@ -4,7 +4,7 @@ import BlurredText from "../components/BlurredText";
 const Hero = () => {
   return (
     <div className="flex flex-col justify-center items-center pt-12 min-h-[85vh]">
-      <h1 className="sm:text-6xl text-5xl md:text-8xl font-orbitron font-extrabold text-center">
+      <h1 className="sm:text-6xl text-5xl md:text-8xl font-orbitron font-extrabold text-center" data-aos="fade-down" data-aos-duration="3000">
         <span className="relative mb-12">
           {" "}
           <span className="drop-shadow-[0_1.2px_1.2px_rgba(84,255,127,1)] fill-transparent">
@@ -17,7 +17,7 @@ const Hero = () => {
         </span>{" "}
         <br />
       </h1>
-      <h1 className="mt-4 sm:text-6xl text-5xl md:text-8xl font-orbitron font-extrabold text-center">
+      <h1 className="mt-4 sm:text-6xl text-5xl md:text-8xl font-orbitron font-extrabold text-center" data-aos="fade-down" data-aos-duration="3000">
         <BlurredText rgba={"84,255,127,1"} color={"#54FF7F"}>
           with
         </BlurredText>
@@ -32,7 +32,7 @@ const Hero = () => {
           dbetez
         </BlurredText>
       </h1>
-      <p className="mt-12 text-white text-lg max-w-2xl text-center">
+      <p className="mt-12 text-white text-lg max-w-2xl text-center" data-aos="fade-down" data-aos-duration="3000">
         Experience the power of decentralized betting on Debetz, the premier
         platform for fair and secure gambling.
       </p>
