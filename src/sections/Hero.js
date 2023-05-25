@@ -37,14 +37,16 @@ const Hero = () => {
         platform for fair and secure gambling.
       </p>
       <div className="flex mt-12 w-full justify-center">
-        <div className=" w-[45%] sm:w-56 bg-[#7109b6] rounded-xl p-1">
-          <button className="w-full py-3 text-center  bg-white font-bold rounded-xl">
+      <div className="group w-[45%] sm:w-56 hover:bg-[#7109b6] bg-transparent rounded-xl p-1">
+          <button className="w-full py-3 text-center  group-hover:bg-white group-hover:text-black rounded-xl outline-[2px] outline font-medium outline-white text-white">
             Enter App
           </button>
         </div>
-        <button className=" w-[45%] sm:w-52 py-3 text-center outline-[2px] outline font-medium outline-white text-white rounded-xl ml-5">
-          Enter App
-        </button>
+        <div className="group w-[45%] sm:w-56 hover:bg-[#7109b6] bg-transparent rounded-xl p-1 ml-5">
+          <button className="w-full py-3 text-center  group-hover:bg-white group-hover:text-black rounded-xl outline-[2px] outline font-medium outline-white text-white">
+            Enter App
+          </button>
+        </div>
       </div>
     </div>
   );
