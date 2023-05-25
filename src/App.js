@@ -10,7 +10,7 @@ import Newslatter from "./sections/Newslatter";
 
 function App() {
   return (
-    <div className="App bg-[#0e0e1c] bg-cover min-h-screen">
+    <div className="App bg-[#0e0e1c] bg-[url('/public/assets/images/bg-main.svg')] bg-cover min-h-screen">
       <div className="max-w-7xl px-3 mx-auto">
         <Navbar />
         <Hero />
@@ -22,8 +22,8 @@ function App() {
       <Roadmap/>
       <div className="max-w-7xl px-3 mx-auto">
         <Newslatter/>
-        <Footer />
       </div>
+        <Footer />
     </div>
   );
 }

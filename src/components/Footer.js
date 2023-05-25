@@ -26,7 +26,9 @@ let socialLinks = [
 ];
 const Footer = () => {
   return (
-    <div className="mx-auto  mt-20 py-8">
+    <div className=" bg-[url('/public/assets/images/bg-footer.svg')] bg-cover">
+
+    <div className="mx-auto max-w-7xl px-3 mx-auto mt-20 py-8 " >
       <div className="lg:gap-x-4 grid grid-cols-1 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-7  gap-y-9">
         <div className="lg:col-span-4 md:col-span-3 sm:col-span-2 col-span-1 mr-10">
           <img src="/assets/images/logo.svg" className="" alt="" />
@@ -63,6 +65,7 @@ const Footer = () => {
       {/* <div className="mt-16 mb-3 text-center text-sm font-light text-white">
         @Copyrights 2022, All Rights Reserved.
       </div> */}
+    </div>
     </div>
   );
 };
