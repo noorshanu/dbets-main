@@ -11,7 +11,7 @@ const Newslatter = () => {
         src="/assets/images/newslatter-sm.svg"
         className="w-full  h-auto invisible flex sm:hidden" alt=""
       />
-      <div className="absolute inset-0 max-w-[1030px] px-3 py-8 flex items-center mx-auto" data-aos="fade-right" data-aos-duration="3000">
+      <div className="absolute inset-0 max-w-[1030px] px-3 py-8 flex items-center mx-auto" data-aos="fade-right" data-aos-duration="1000">
         <div className="flex flex-col sm:flex-row  justify-between w-full">
           <div className="flex flex-col h-full justify-between max-w-[400px] sm:max-w-none">
             <h1 className="font-orbitron text-white font-bold md:text-3xl sm:text-2xl lg:text-4xl text-[5vw] text-center sm:text-left">
