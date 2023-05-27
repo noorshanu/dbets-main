@@ -12,6 +12,7 @@ const Win = () => {
           src="/assets/images/buyDbets-sm.svg"
           className="w-full h-auto invisible flex sm:hidden " alt=""
         />
+        <img src="/assets/images/hero-planet.svg" className="absolute -top-20 -left-6 w-full max-w-[430px] sm:hidden flex h-auto"/>
         <div className="absolute inset-0 pt-[0%] px-4 sm:px-6 md:px-8 lg:px-10 max-w-5xl mx-auto flex flex-col">
           <img
             src="/assets/images/buy-btn.svg"
@@ -35,18 +36,18 @@ const Win = () => {
           </p>
         </div>
       </div>
-      <div className="rounded-full w-full py-4 items-center mt-6 px-10 bg-white bg-opacity-5 flex justify-between font-orbitron  text-white">
+      <div className="rounded-full w-full py-4 items-center mt-6 px-5 sm:px-10 bg-white bg-opacity-5 flex justify-between font-orbitron  text-white">
         <h1 className="font-medium sm:text-lg text-sm">Our Partners</h1>
         <div className="flex justify-between  w-[60%] items-center ">
           <img
             src="/assets/logos/smartSoft.svg"
-            className="w-[8vw] sm:w-[6vw]" alt=""
+            className="h-[25px] sm:h-[40px] md:h-[50px]" alt=""
           />
-          <img src="/assets/logos/eth.svg" className="w-[8vw] sm:w-[6vw]" alt="" />
-          <img src="/assets/logos/uniSwap.svg" className="w-[8vw] sm:w-[6vw]" alt="" />
+          <img src="/assets/logos/eth.svg" className="h-[25px] sm:h-[40px] md:h-[50px]" alt="" />
+          <img src="/assets/logos/uniSwap.svg" className="h-[25px] sm:h-[40px] md:h-[50px]" alt="" />
           <img
             src="/assets/logos/sportsBet.svg"
-            className="w-[8vw] sm:w-[6vw]" alt=""
+            className="h-[25px] sm:h-[40px] md:h-[50px]" alt=""
           />
         </div>
       </div>

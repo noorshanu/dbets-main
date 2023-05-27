@@ -57,7 +57,7 @@ export default function Navbar() {
           </Popover.Group>
           <a
             href="/"
-            className="mr-8   space-x-2 whitespace-nowrap rounded-md py-2 font-bold flex justify-center items-center px-3 text-sm text-white bg-white bg-opacity-5 sm:flex md:mr-0 absolute right-0  md:bottom-2 -bottom-8"
+            className="mr-8   space-x-2 whitespace-nowrap rounded-md cursor-pointer border border-transparent transition-colors hover:border-white  py-2 font-bold flex justify-center items-center px-3 text-sm text-white bg-white bg-opacity-5 sm:flex md:mr-0 absolute right-0  md:bottom-2 -bottom-8"
           >
             <span>View Whitepaper </span>
             <img src="/assets/icons/arrowRight.svg" className="h-4 w-auto ml-1"/> 
