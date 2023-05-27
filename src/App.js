@@ -10,20 +10,24 @@ import Newslatter from "./sections/Newslatter";
 
 function App() {
   return (
-    <div className="App bg-[#0e0e1c] bg-[url('/public/assets/images/bg-main.svg')] bg-cover min-h-screen">
+    <div className="App bg-[#0e0e1c] min-h-screen">
+      <div className=" bg-[url('/public/assets/images/hero-bg-sm.svg')] sm:bg-[url('/public/assets/images/hero-bg.svg')] bg-cover">
+        <div className="max-w-7xl px-3 mx-auto">
+          <Navbar />
+          <Hero />
+          <Win />
+        </div>
+      </div>
       <div className="max-w-7xl px-3 mx-auto">
-        <Navbar />
-        <Hero />
-        <Win />
         <Offering />
         <HowDBET />
       </div>
       <DataFeeds />
-      <Roadmap/>
+      <Roadmap />
       <div className="max-w-7xl px-3 mx-auto">
-        <Newslatter/>
+        <Newslatter />
       </div>
-        <Footer />
+      <Footer />
     </div>
   );
 }
