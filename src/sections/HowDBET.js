@@ -2,7 +2,7 @@ import React from "react";
 
 const HowDBET = () => {
   return (
-    <div className="my-20">
+    <div className="my-20" id="howDBetz">
       <div className="text-center font-medium" data-aos="fade-down" data-aos-duration="1000">
         <h1 className="text-[#54FF7F] font-orbitron text-4xl">Decentralised</h1>
         <h1 className="text-[#fff] font-orbitron text-4xl">and</h1>

@@ -35,7 +35,7 @@ const Offering = () => {
     },
   ];
   return (
-    <div>
+    <div id="offerings">
       <h1 className="my-20 font-orbitron text-white text-4xl text-center font-bold mx-auto">
         Platform Offering
       </h1>

@@ -30,7 +30,7 @@ let socialLinks = [
 ];
 const Footer = () => {
   return (
-    <div className=" sm:bg-[url('/public/assets/images/footer-bg.svg')] bg-cover pt-6 pb-3">
+    <div className=" sm:bg-[url('/public/assets/images/footer-bg.svg')] bg-cover pt-6 pb-3" id="footer">
       <div className="mx-auto max-w-7xl px-3 mt-6 sm:mt-20 py-8 ">
         <div className="lg:gap-x-4 grid grid-cols-1 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-7  gap-y-9">
           <div className="lg:col-span-4 md:col-span-3 sm:col-span-2 col-span-1 mr-10">

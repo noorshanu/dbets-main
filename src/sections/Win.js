@@ -2,7 +2,7 @@ import React from "react";
 
 const Win = () => {
   return (
-    <div className="mt-12 py-2">
+    <div className="mt-12 py-2" id="win">
       <div className="relative bg-[url('/public/assets/images/buyDbets-sm.svg')] sm:bg-[url('/public/assets/images/buyDbets.svg')] bg-cover h-auto ">
         <img
           src="/assets/images/buyDbets.svg"
@@ -36,7 +36,7 @@ const Win = () => {
           </p>
         </div>
       </div>
-      <div className="rounded-full w-full py-4 items-center mt-6 px-5 sm:px-10 bg-white bg-opacity-5 flex justify-between font-orbitron  text-white">
+      <div className="rounded-full w-full py-4 items-center mt-6 px-5 sm:px-10 bg-white bg-opacity-5 flex justify-between font-orbitron  text-white" id="partners">
         <h1 className="font-medium sm:text-lg text-sm">Our Partners</h1>
         <div className="flex justify-between  w-[60%] items-center ">
           <img

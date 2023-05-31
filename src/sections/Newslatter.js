@@ -2,7 +2,7 @@ import React from "react";
 
 const Newslatter = () => {
   return (
-    <div className='bg-[url("/public/assets/images/newslatter-sm.svg")] sm:bg-[url("/public/assets/images/newslatter.svg")] bg-cover relative mt-14'>
+    <div id="newslatter" className='bg-[url("/public/assets/images/newslatter-sm.svg")] sm:bg-[url("/public/assets/images/newslatter.svg")] bg-cover relative mt-14'>
       <img
         src="/assets/images/newslatter.svg"
         className="w-full  h-auto invisible hidden sm:flex" alt=""

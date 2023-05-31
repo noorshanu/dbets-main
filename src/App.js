@@ -10,7 +10,7 @@ import Newslatter from "./sections/Newslatter";
 
 function App() {
   return (
-    <div className="App bg-[#0e0e1c] min-h-screen">
+    <div className="App bg-[#0e0e1c] min-h-screen scroll-smooth">
       <div className=" bg-[url('/public/assets/images/hero-bg-sm.svg')] sm:bg-[url('/public/assets/images/hero-bg.svg')] bg-cover">
         <div className="max-w-7xl px-3 mx-auto">
           <Navbar />
