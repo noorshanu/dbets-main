@@ -16,16 +16,16 @@ const Win = () => {
         <div className="absolute inset-0 pt-[0%] px-4 sm:px-6 md:px-8 lg:px-10 max-w-5xl mx-auto flex flex-col">
           <img
             src="/assets/images/buy-btn.svg"
-            className="w-[30vw] hidden sm:flex h-auto self-center mb-[10%]" alt=""
+            className="w-[30vw] hidden sm:flex h-auto self-center  hover:scale-110 cursor-pointer transition-all opacity-70 hover:opacity-100 mb-[10%]" alt=""
           />
           <img
             src="/assets/images/buy-btn-sm.svg"
-            className="w-[48vw] h-auto flex sm:hidden self-center mb-[6%] xs:mb-[12%]" alt=""
+            className="w-[48vw] h-auto flex sm:hidden self-center  hover:scale-110 cursor-pointer transition-all opacity-70 hover:opacity-100 mb-[6%] xs:mb-[12%]" alt=""
           />
           <h1 className="font-orbitron text-white font-medium md:text-4xl sm:text-3xl lg:text-5xl text-2xl text-center" data-aos="fade-right" data-aos-duration="3500">
             Win big on Debetz
           </h1>
-          <p className="font-pop text-white text-opacity-75 leading-relaxed text-[3vw] sm:text-[1.4vw] text-center mt-4 sm:mt-6 md:mt-8 lg:mt-10" data-aos="fade-right" data-aos-duration="3500">
+          <p className="font-pop text-white text-opacity-75 leading-relaxed text-[3vw] sm:text-[1.4vw] 2xl:text-[20px] text-center mt-4 sm:mt-6 md:mt-8 lg:mt-10" data-aos="fade-right" data-aos-duration="3500">
             The decentralized betting platform for fair and secure gambling. Our
             sportsbook, casino, and liquidity pools allow you to bet with
             cryptocurrency and invest with confidence. As a house on Debetz, you
