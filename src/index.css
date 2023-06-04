@@ -15,3 +15,7 @@
 clip-path: polygon(42% 51%, 59% 51%, 67% 36%, 100% 36%, 100% 100%, 0 100%, 0 36%, 35% 36%);
 }
 
+.datafeed-bg{
+  background-image: url('/public/assets/images/datafeed-bg.svg');
+  background-blend-mode: lighten;
+}
