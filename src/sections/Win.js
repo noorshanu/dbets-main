@@ -2,7 +2,7 @@ import React from "react";
 
 const Win = () => {
   return (
-    <div className="mt-12 py-2" id="win">
+    <div className=" py-2" id="win">
       <div className="relative bg-[url('/public/assets/images/buyDbets-sm.svg')] sm:bg-[url('/public/assets/images/buyDbets.svg')] bg-cover h-auto ">
         <img
           src="/assets/images/buyDbets.svg"
@@ -12,6 +12,7 @@ const Win = () => {
           src="/assets/images/buyDbets-sm.svg"
           className="w-full h-auto invisible flex sm:hidden " alt=""
         />
+        <img src="/assets/images/planet-lg.svg" className="absolute -top-44 left-[10vw] w-full max-w-[750px] sm:flex hidden h-auto"/>
         <img src="/assets/images/hero-planet.svg" className="absolute -top-20 -left-6 w-full max-w-[430px] sm:hidden flex h-auto"/>
         <div className="absolute inset-0 pt-[0%] px-4 sm:px-6 md:px-8 lg:px-10 max-w-5xl mx-auto flex flex-col">
           <img

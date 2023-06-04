@@ -5,7 +5,7 @@ import { ChevronDoubleDownIcon } from "@heroicons/react/24/outline";
 const Hero = () => {
   let sections = ["win", "partners", "offerings", "howDBetz", "datafeeds", "roadmap", "newslatter"];
   return (
-    <div className="flex flex-col justify-center items-center sm:pt-12 min-h-[80vh] sm:min-h-[85vh]">
+    <div className="flex flex-col justify-center items-center  mt-[8vh] mb-[13vh] sm:mb-[30vh] ">
       <h1
         className="sm:text-6xl text-5xl md:text-8xl font-orbitron font-extrabold text-center"
         data-aos="fade-down"
