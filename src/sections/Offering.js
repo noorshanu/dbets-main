@@ -40,7 +40,7 @@ const Offering = () => {
         Platform Offering
       </h1>
       <div
-        className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-10 mt-20"
+        className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-7 mt-20"
         data-aos="fade-up"
         data-aos-duration="1000"
       >
