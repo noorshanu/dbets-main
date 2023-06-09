@@ -13,15 +13,15 @@ const OfferingCard = ({title, text, img}) => {
         className="invisible  group-hover:flex hidden h-full w-max"
         loading="eager" alt=""
       />
-      <div className="absolute inset-0 rounded-3xl  bg-opacity-50  bg-cover px-10 py-[1rem] flex flex-col justify-center space-y-8">
-        <img className="w-20 h-auto" src={img}   alt=""/>
-        <h1 className="text-2xl font-medium font-orbitron text-white">
+      <div className="absolute inset-0 rounded-3xl text-center  bg-opacity-50  bg-cover px-10 py-[1rem] flex flex-col justify-center space-y-8">
+        {/* <img className="w-20 h-auto" src={img}   alt=""/> */}
+        <h1 className=" font-medium text-3xl font-orbitron text-white">
           {title}
         </h1>
-        <p className="text-white font-pop text-[2vw] sm:text-[1vw] 2xl:text-sm max-w-[90%] sm:max-w-[70%] opacity-90">
+        <p className="text-white m-auto text-center font-pop text-[2vw] sm:text-[1vw] 2xl:text-sm max-w-[90%] sm:max-w-[85%] opacity-90">
           {text}
         </p>
-        <button className="bg-white group-hover:bg-[#54FF7F] w-28 py-2 rounded-md text-xs font-pop font-semibold">
+        <button className="bg-white text-center mx-auto group-hover:bg-[#54FF7F] w-28 py-2 rounded-md text-xs font-pop font-semibold">
           Learn more
         </button>
       </div>
